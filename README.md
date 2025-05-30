@@ -20,7 +20,7 @@ In questo testo si può trovare una grande similitudine tra le marionette e i lo
 Il mezzo per far ciò per noi è un computer, per loro dei fili, ma lo scopo resta lo stesso, mostrare qualcosa, raccontare ed emozionare.
 
 ## Esercizio 2
-- [Parallasse Animato](https://martinazemp.github.io/gim/esercizio_2/index_animato.html)
+- [Parallasse Animato](https://martinazemp.github.io/gim/Esercizio_2/parallasse_animato.html)
 - [Parallasse Interattivo](https://martinazemp.github.io/gim/esercizio_2/index_interattivo.html)
 
 
