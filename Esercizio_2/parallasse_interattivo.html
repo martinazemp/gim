@@ -3,25 +3,11 @@
 	<head>
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Multiplane Camera</title>
+		<title>Esercizio 2: Parallasse Interattivo</title>
 		<style>
 			body {
 				margin: 0;
 				background-color: darkgray;
-			}
-			@keyframes rotate {
-				0% {
-					transform: rotateY(-60deg) rotateX(-30deg);
-				}
-				100% {
-					transform: rotateY(-60deg) rotateX(-30deg);
-				}
-				20% {
-					transform: rotateY(-60deg) rotateX(30deg);
-				}
-				50% {
-					transform: rotateY(60deg) rotateX(30deg);
-				}
 			}
 			main {
 				display: flex;
@@ -34,7 +20,7 @@
 				place-items: center;
 				transform-style: preserve-3d;
 				perspective: 3000px;
-				animation: rotate 10s ease-in-out infinite;
+
 			}
 			.layer {
 				display: inline-block;
@@ -60,5 +46,13 @@
 				<div style="translate: 0 0  100px;" class="layer"><img src="img/6.png"></div>
 			</div>
 		</main>
+		<script>
+			document.body.addEventListener('mousemove', (e) => {
+				const container = document.getElementById('container');
+				const x = (e.clientX - window.innerWidth / 2) / window.innerWidth * Math.PI * 0.75
+				const y = -(e.clientY - window.innerHeight / 2) / window.innerHeight * Math.PI * 0.75
+				container.style.transform = "rotateX(" + y + "rad) rotateY(" + x + "rad)"
+			})
+		</script>
 	</body>
 </html>
