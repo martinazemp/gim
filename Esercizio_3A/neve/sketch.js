@@ -1,12 +1,15 @@
+
 let fiocchi = [];
 
 function setup() {
   createCanvas(windowWidth, windowHeight);
-
+  textAlign(CENTER, CENTER);
+  
+  // Genera fiocchi 
   for (let i = 0; i < 500; i++) {
     fiocchi.push({
-      px: random(0, width),
-      py: random(-100, 0),
+      px: random(width),
+      py: random(height), 
       dim: random(10, 20),
       vel: random(1, 3)
     });
@@ -16,18 +19,22 @@ function setup() {
 function draw() {
   background(0);
   fill(255);
-  textAlign(CENTER, CENTER);
 
   for (let i = 0; i < fiocchi.length; i++) {
-    fiocchi[i].px += random(-1.5, 1.5);
-    fiocchi[i].py += fiocchi[i].vel;
+    const f = fiocchi[i];
 
-    if (fiocchi[i].py > height) {
-      fiocchi[i].py = 0;
+    // Movimento orizzontale e caduta
+    f.px += random(-1.5, 1.5);
+    f.py += f.vel;
+
+    // Se un fiocco supera il bordo inferiore, ricomincia dall'alto
+    if (f.py > height) {
+      f.py = random(-50, 0); 
+      f.px = random(width);
     }
 
-    textSize(fiocchi[i].dim);
-    text("*", fiocchi[i].px, fiocchi[i].py);
+    textSize(f.dim);
+    text("*", f.px, f.py);
   }
 }
 
