@@ -26,8 +26,8 @@ Il mezzo per far ciò per noi è un computer, per loro dei fili, ma lo scopo res
 ## Esercizio 3A
 - [Neve](https://martinazemp.github.io/gim/Esercizio_3A/neve/neve.html)
 - [Pioggia](https://martinazemp.github.io/Esercizio_3A/pioggia/pioggia.html)
-- [Pioggia 3D](https://martinazemp.github.io/Esercizio_3A/pioggia 3D/pioggia_3D.html)
-- [Pong Generativo](https://martinazemp.github.io/Esercizio_3A/pong generativo/pong_generativo.html)
-- [Pong Interattivo](https://martinazemp.github.io/Esercizio_3A/pong interattivo/pong_interattivo.html)
+- [Pioggia 3D](https://martinazemp.github.io/Esercizio_3A/pioggia3D/pioggia_3D.html)
+- [Pong Generativo](https://martinazemp.github.io/Esercizio_3A/ponggenerativo/pong_generativo.html)
+- [Pong Interattivo](https://martinazemp.github.io/Esercizio_3A/ponginterattivo/pong_interattivo.html)
   
 
