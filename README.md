@@ -23,4 +23,11 @@ Il mezzo per far ciò per noi è un computer, per loro dei fili, ma lo scopo res
 - [Parallasse Animato](https://martinazemp.github.io/gim/Esercizio_2/parallasse_animato.html)
 - [Parallasse Interattivo](https://martinazemp.github.io/gim/Esercizio_2/parallasse_interattivo.html)
 
+## Esercizio 3A
+- [Neve](https://martinazemp.github.io/gim/Esercizio_3A/neve/neve.html)
+- [Pioggia](https://martinazemp.github.io/gim/Esercizio_3A/pioggia/pioggia.html)
+- [Pioggia 3D](https://martinazemp.github.io/gim/Esercizio_3A/pioggia3D/pioggia_3D.html)
+- [Pong Generativo](https://martinazemp.github.io/gim/Esercizio_3A/ponggenerativo/pong_generativo.html)
+- [Pong Interattivo](https://martinazemp.github.io/gim/Esercizio_3A/ponginterattivo/pong_interattivo.html)
+  
 
