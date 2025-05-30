@@ -3,7 +3,7 @@ Corso di grafica in Movimento 2025, SUPSI
 
 ## Esercizio 1A
 - [Acceso Spento 2](https://martinazemp.github.io/gim/Esercizio_1A/acceso_spento_2.html)
-- [Acceso Spento 3](https://martinazemp.github.io/gim/esercizio_1a/acceso_spento_3.html)
+- [Acceso Spento 3](https://martinazemp.github.io/gim/Esercizio_1A/acceso_spento_3.html)
 - [Aperto Chiuso 2](https://martinazemp.github.io/gim/esercizio_1a/aperto_chiuso_2.html)
 - [Aperto Chiuso 3](https://martinazemp.github.io/gim/esercizio_1a/aperto_chiuso_3.html)
 - [Rotazione 2](https://martinazemp.github.io/gim/esercizio_1a/rotazione_2.html)
