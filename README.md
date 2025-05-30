@@ -21,6 +21,6 @@ Il mezzo per far ciò per noi è un computer, per loro dei fili, ma lo scopo res
 
 ## Esercizio 2
 - [Parallasse Animato](https://martinazemp.github.io/gim/Esercizio_2/parallasse_animato.html)
-- [Parallasse Interattivo](https://martinazemp.github.io/gim/esercizio_2/index_interattivo.html)
+- [Parallasse Interattivo](https://martinazemp.github.io/gim/Esercizio_2/parallasse_interattivo.html)
 
 
