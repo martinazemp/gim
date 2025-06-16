@@ -29,5 +29,8 @@ Il mezzo per far ciò per noi è un computer, per loro dei fili, ma lo scopo res
 - [Pioggia 3D](https://martinazemp.github.io/gim/Esercizio_3A/pioggia_3D/pioggia_3D.html)
 - [Pong Generativo](https://martinazemp.github.io/gim/Esercizio_3A/pong_generativo/pong_generativo.html)
 - [Pong Interattivo](https://martinazemp.github.io/gim/Esercizio_3A/pong_interattivo/pong_interattivo.html)
+
+## Esercizio 3B
+- [Orologio Analogico](https://martinazemp.github.io/gim/Esercizio_3B/orologio_analogico.html)
   
 
