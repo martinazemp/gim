@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="Martina" content="Martina Zemp" />
+	<title>Esercizio 1B: Logo</title>
+	<style type="text/css">
+		html{
+			height:100%;
+		}
+		body{
+			background-color: rgb(235,235,235);
+			margin: 3em 2em;
+		}
+	</style>
+
+</head>
+<body>
+
+	<img />
+
+	<script type="module">
+
+		const sequenza = [
+			"img/logo_1.png",
+			"img/logo_2.png",
+			"img/logo_3.png",
+			"img/logo_4.png",
+			"img/logo_5.png",
+			"img/logo_6.png",
+			"img/logo_7.png",
+			"img/logo_8.png",
+			"img/logo_9.png",
+			"img/logo_10.png",
+			"img/logo_11.png",
+			"img/logo_12.png",
+			"img/logo_13.png",
+			"img/logo_14.png",
+			"img/logo_15.png",
+			"img/logo_16.png",
+			"img/logo_17.png",
+			"img/logo_18.png",
+			"img/logo_19.png",
+			"img/logo_20.png",
+			"img/logo_21.png",
+			"img/logo_22.png",
+			"img/logo_23.png",
+			"img/logo_24.png",
+			"img/logo_25.png",
+			"img/logo_26.png",
+			"img/logo_27.png",
+			"img/logo_28.png",
+			"img/logo_29.png",
+			"img/logo_30.png",
+			"img/logo_31.png",
+			"img/logo_32.png",
+			"img/logo_33.png",
+			"img/logo_34.png",
+			"img/logo_35.png",
+			
+
+
+		]
+
+		let frame = 0
+
+		setInterval(() => {
+			const img = document.querySelector("img")
+			img.src = sequenza[frame]
+			frame = (frame + 1) % sequenza.length
+		}, 50)
+
+	</script>
+</body>
+</html>
